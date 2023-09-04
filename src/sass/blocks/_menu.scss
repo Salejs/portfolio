@@ -73,11 +73,14 @@
         }
         &:hover {
             &:before {
-                background-color: #fff;
+                background-color: #40e90d;
             }
         }
         a {
             color: #fff;
+            &:hover {
+                color: #40e90d;
+            }
         }
     }
     &__social {
@@ -88,7 +91,14 @@
         width: 90px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center;   
+        a {
+            &:hover {
+                svg path {
+                    fill: #40e90d;
+                }
+            }
+        }    
     }
     &__overlay {
         position: fixed;
