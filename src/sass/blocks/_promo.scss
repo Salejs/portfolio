@@ -21,16 +21,12 @@
         width: 250px;
     }
     &__link {
-        color: #ffffff;
+        color: #000;
         font-weight: bold;
         &:hover {
-            color: #40e90d;
+            color: #000;
             text-decoration: none;
         }
     }
 }
 
-.container {
-    position: relative;
-    right: 200px;
-}

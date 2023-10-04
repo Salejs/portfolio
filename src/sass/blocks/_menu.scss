@@ -12,7 +12,7 @@
         display: block;
         width: 30px;
         height: 3px;
-        background: #40e90d;
+        background: #151812;
     }
     span.long {
         width: 36px;
@@ -73,14 +73,11 @@
         }
         &:hover {
             &:before {
-                background-color: #40e90d;
+                background-color: #fff;
             }
         }
         a {
             color: #fff;
-            &:hover {
-                color: #40e90d;
-            }
         }
     }
     &__social {
@@ -91,14 +88,7 @@
         width: 90px;
         display: flex;
         justify-content: space-between;
-        align-items: center;   
-        a {
-            &:hover {
-                svg path {
-                    fill: #40e90d;
-                }
-            }
-        }    
+        align-items: center;
     }
     &__overlay {
         position: fixed;
